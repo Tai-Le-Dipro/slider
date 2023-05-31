@@ -1,0 +1,36 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+  background-color: #F3F6FA;
+  
+  box-shadow: -4.21327px 12.6398px 33.7062px rgba(24, 52, 90, 0.25);
+}
+
+
+.swiper-pagination-bullet {
+  display: none;
+}
